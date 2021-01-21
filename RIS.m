@@ -32,6 +32,7 @@ while abs(R(ii)-R_pre)>=1e-4 && ii<=15
     for jj=1:M
         C=C+G(:,jj)*D(jj,jj)*H1(:,jj)';
     end
+    C=C+Hd*P;
     A=eye(Mr)+C*C';
     invA=inv(A);%the inversion of A
     for mm = 1:M
