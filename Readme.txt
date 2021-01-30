@@ -1,10 +1,10 @@
 The relationship between main function and figures in paper
 Fig5, Fig6: main_snr
-Fig7: main_snr_add_hd
+Fig7: main_snr_Grank1 
 Fig8: main_snr_Hrank1
-Fig9: main_snr_ofdm
-Fig10: main_snr_Grank1
-Fig11: main_snr_diffd0
+Fig10: main_snr_add_hd
+Fig11: main_snr_ofdm
+
 
 Introduction for functions
 RIS: Algorithm 1 in paper
